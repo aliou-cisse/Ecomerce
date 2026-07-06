@@ -339,6 +339,7 @@ footer{
 /* === TABLETTES (max-width: 992px) === */
 @media (max-width: 992px) {
     .container {
+        width: 100%;
         padding: 0 24px;
     }
 
@@ -388,6 +389,7 @@ footer{
 /* === TÉLÉPHONES (max-width: 768px) === */
 @media (max-width: 768px) {
     .container {
+        width: 100%;
         padding: 0 16px;
     }
     header .container {
@@ -521,7 +523,7 @@ footer{
         font-size: 28px;
     }
     .team-image {
-        width: 100px;
+        width: 100%;
         height: 100px;
     }
     .team-card h3 {
@@ -559,7 +561,7 @@ footer{
         font-size: 1.8rem;
     }
     .hero-image img {
-        max-height: 200px;
+        max-height: 100%;
         object-fit: cover;
     }
 }
